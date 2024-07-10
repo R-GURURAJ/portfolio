@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Add these in your CSS file if not using Tailwind CSS */
+
+.bg-primary {
+    background-color: #4f46e5;
+    /* Replace with your primary color */
+}
+
+.text-primary {
+    color: #4f46e5;
+    /* Replace with your primary color */
+}
+
+.hover\:bg-primary-dark:hover {
+    background-color: #4338ca;
+    /* Replace with a darker shade of your primary color */
+}
